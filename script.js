@@ -138,7 +138,7 @@ function showWallpaper(imageUrl, category, index) {
       <div class="card-body px-0">
         <input type="text" value="${imageUrl}" class="mr-2 font-weight-bold btn url-box px-2 scroll-pink" readonly>
         <button type="button scale" class="btn btn-clipboard font-weight-bold mr-2" data-toggle="tooltip" title="Copy on clipboard"><i class="bi bi-clipboard scale"></i></button>
-        <a class="btn btn-download scale font-weight-bold" data-toggle="tooltip" title="Download image" target="_blank" download="${imageUrl}" download><i class="bi bi-download"></i></a>
+        <a href="${imageUrl} class="btn btn-download scale font-weight-bold" data-toggle="tooltip" title="Download image" target="_blank" download="${imageUrl}" download><i class="bi bi-download"></i></a>
       </div>
     </div>
   </div>`;
