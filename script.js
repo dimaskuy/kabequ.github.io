@@ -58,7 +58,7 @@ const wallpaperDesc = document.querySelector('.main-info .title i');
 mainInfo.innerHTML = loadingInfo();
 cardBox.innerHTML = loadingCard();
 
-fetch(`https://wallpaper-api-zhirrr.vercel.app/api/technologyABC`)
+fetch(`https://wallpaper-api-zhirrr.vercel.app/api/technology`)
   .then(response => response.json())
   .then(results => {
     const result = results.results;
@@ -90,7 +90,7 @@ categoryLi.forEach(category => {
     cardBox.innerHTML = loadingCard();
 
     if (e.target.dataset.category === 'technology' && e.target.classList.contains('current')) {
-      fetch(`https://wallpaper-api-zhirrr.vercel.app/api/technologyABC`)
+      fetch(`https://wallpaper-api-zhirrr.vercel.app/api/technology`)
         .then(response => response.json())
         .then(results => {
           const result = results.results;
@@ -111,7 +111,7 @@ categoryLi.forEach(category => {
     }
     else if (e.target.dataset.category !== 'technology' && e.target.classList.contains('current')) {
       const thisDataset = e.target.dataset.category;
-      fetch(`https://wallpaper-api-zhirrr.vercel.app/api/${thisDataset}ABC`)
+      fetch(`https://wallpaper-api-zhirrr.vercel.app/api/${thisDataset}`)
         .then(response => response.json())
         .then(results => {
           const result = results.results;
