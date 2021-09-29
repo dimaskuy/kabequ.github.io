@@ -149,7 +149,7 @@ button, input { outline: none; }
   position: fixed;
   bottom: 0; right: 0;
   background: var(--black2);
-  opacity: 0.6;
+  opacity: 0.5;
   box-shadow: none !important;
   font-size: 1rem;
   border-radius: 5px;
