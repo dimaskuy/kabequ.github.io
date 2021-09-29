@@ -446,6 +446,7 @@ footer p {
   font-size: 1rem;
 }
 footer .footer-creator {
+  display: none;
   font-size: 1rem;
   letter-spacing: 2px;
   font-family: 'JetBrains Mono', monospace, 'Nunito', sans-serif !important;
@@ -495,7 +496,7 @@ footer .footer-creator {
   .title { position: relative; line-height: 140%; }
   .title, .title i {
     font-family: 'Montserrat', 'Nunito', arial, sans-serif !important;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .title-line {
