@@ -265,7 +265,7 @@ document.addEventListener('click', function(e) {
 function sweetalertMsg(info, text, time = 1500) {
   const Toast = Swal.mixin({
     toast: true,
-    position: 'bottom-start',
+    position: 'top-start',
     showConfirmButton: false,
     timer: time,
     timerProgressBar: false,
