@@ -21,7 +21,7 @@ toTopBtn.addEventListener('click', function() {
 });
 
 changeThemeBtns.forEach(btn => {
-   btn.addEventListener('click, function(e) {
+   btn.addEventListener('click', function(e) {
      e.preventDefault();
      if(documentHTML.dataset.theme = 'dark') {
        documentHTML.dataset.theme = 'light';
