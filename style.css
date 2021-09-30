@@ -142,7 +142,7 @@ button, input { outline: none; }
 .transparent { background: transparent !important; }
 
 .swal2-title {
-  color: var(--black) !important;
+  color: #1E3163 !important;
 }
 
 .to-top {
