@@ -26,7 +26,7 @@ changeThemeBtns.forEach(btn => {
      if(documentHTML.dataset.theme = 'dark') {
        documentHTML.dataset.theme = 'light';
         changeThemeBtns.forEach(el => {
-          el.innerHTML = 'Night Mode <i class="bi bi-moon-stars-fill ml-1"></i>'';
+          el.innerHTML = 'Night Mode <i class="bi bi-moon-stars-fill ml-1"></i>';
         });
      } else {
         documentHTML.dataset.theme = 'dark';
