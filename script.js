@@ -1,5 +1,6 @@
 const documentHTML = document.querySelector('html');
-const changeThemeBtn = document.querySelector('.change-theme');
+// const changeThemeBtn = document.querySelector('.change-theme');
+const changeThemeBtns = Array.from(document.querySelectorAll('.change-theme'));
 const changeThemeBtnOuter = document.querySelector('.change-theme.outer-nav');
 
 // ToTop Btn
@@ -19,7 +20,24 @@ toTopBtn.addEventListener('click', function() {
   document.documentElement.scrollTop = 0;
 });
 
+changeThemeBtns.forEach(btn => {
+   btn.addEventListener('click, function(e) {
+     e.preventDefault();
+     if(documentHTML.dataset.theme = 'dark') {
+       documentHTML.dataset.theme = 'light';
+        changeThemeBtns.forEach(el => {
+          el.innerHTML = 'Night Mode <i class="bi bi-moon-stars-fill ml-1"></i>'';
+        });
+     } else {
+        documentHTML.dataset.theme = 'dark';
+         changeThemeBtns.forEach(el => {
+           el.innerHTML = 'Light Mode <i class="bi bi-cloud-sun-fill ml-1"></i>';
+         });
+     }
+   });
+});
 
+/*
 changeThemeBtn.addEventListener('click', function(e) {
   e.preventDefault();
   if (documentHTML.dataset.theme === 'dark') {
@@ -45,6 +63,7 @@ changeThemeBtnOuter.addEventListener('click', function(e) {
     changeThemeBtn.innerHTML = e.target.innerHTML;
   }
 });
+*/
 
 
 
