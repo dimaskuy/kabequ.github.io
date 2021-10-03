@@ -213,6 +213,26 @@ function loadingCard() {
         <span class="btn mr-2"></span>
       </div>
     </div>
+  </div>
+  <div class="col loading-card mx-2 my-2">
+    <div class="card border-0">
+      <div class="card-img-top-loading"></div>
+      <div class="card-body px-0">
+        <span class="btn url-box-loading mr-2"></span>
+        <span class="btn mr-2"></span>
+        <span class="btn mr-2"></span>
+      </div>
+    </div>
+  </div>
+  <div class="col loading-card mx-2 my-2">
+    <div class="card border-0">
+      <div class="card-img-top-loading"></div>
+      <div class="card-body px-0">
+        <span class="btn url-box-loading mr-2"></span>
+        <span class="btn mr-2"></span>
+        <span class="btn mr-2"></span>
+      </div>
+    </div>
   </div>`;
 }
 
